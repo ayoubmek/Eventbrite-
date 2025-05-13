@@ -1,0 +1,52 @@
+.admin-navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 0.75rem 1rem;
+    background: linear-gradient(90deg, #343a40 0%, #212529 100%);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.admin-navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff !important;
+}
+
+.admin-navbar .btn-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.admin-navbar .btn-link:hover {
+    color: #adb5bd;
+}
+
+.admin-navbar .admin-search {
+    width: 220px;
+    border-radius: 20px;
+    padding: 0.4rem 1rem;
+    background-color: #f8f9fa;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.admin-navbar .admin-search:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+    outline: none;
+}
+
+.admin-navbar .btn-outline-light {
+    border-radius: 20px;
+    padding: 0.4rem 0.75rem;
+    border-color: #ffffff;
+    transition: background 0.3s ease;
+}
+
+.admin-navbar .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #343a40;
+    border-color: #ffffff;
+}
