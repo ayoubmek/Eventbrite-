@@ -1,0 +1,128 @@
+/* Main container */
+.artworks-page {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Page title */
+.page-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Add button */
+.add-button {
+    background-color: #3498db;
+    border: none;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+.add-button:hover {
+    background-color: #2980b9;
+}
+
+/* Alert message */
+.alert-message {
+    margin-top: 20px;
+}
+
+/* Table styling */
+.artworks-table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table-header {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.table-header th {
+    font-weight: 500;
+}
+
+/* Action buttons */
+.action-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.action-buttons .btn {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+/* Modal styling */
+.modal-header {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+}
+
+.form-input {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+.modal-footer-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Artwork details */
+.artwork-details {
+    padding: 10px;
+}
+
+.artwork-title {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.detail-item {
+    margin-bottom: 15px;
+}
+
+.detail-label {
+    font-weight: 600;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.detail-value {
+    color: #495057;
+}
+/* Tickets-specific styles */
+.ticket-title {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.ticket-details .detail-item {
+    margin-bottom: 15px;
+}
+
+/* Status badge icons */
+.badge svg {
+    margin-right: 5px;
+}
+/* Status badges */
+.badge {
+    padding: 6px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}

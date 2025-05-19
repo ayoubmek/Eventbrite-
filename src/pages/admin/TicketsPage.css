@@ -1,0 +1,16 @@
+/* Tickets-specific styles */
+.ticket-title {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.ticket-details .detail-item {
+    margin-bottom: 15px;
+}
+
+/* Status badge icons */
+.badge svg {
+    margin-right: 5px;
+}
