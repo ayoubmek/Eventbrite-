@@ -14,6 +14,8 @@ const FrontNavbar = () => {
                         <Nav.Link as={Link} to="/gallery">Galerie</Nav.Link>
                         <Nav.Link as={Link} to="/events">Événements</Nav.Link>
                         <Nav.Link as={Link} to="/tickets">Billets</Nav.Link>
+                        <Nav.Link as={Link} to="/avis">Avis</Nav.Link>
+                        <Nav.Link as={Link} to="/reclamation">Réclamation</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

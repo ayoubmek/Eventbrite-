@@ -2,6 +2,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import FrontLayout from './layouts/FrontLayout';
 import AdminLayout from './layouts/AdminLayout';
+import AvisAdminPage from './pages/admin/AvisAdminPage';
+import ReclamationsAdminPage from './pages/admin/ReclamationsAdminPage';
 
 // Front office pages
 import HomePage from './pages/front/HomePage';
@@ -9,6 +11,8 @@ import GalleryPage from './pages/front/GalleryPage';
 import EventsPage from './pages/front/EventsPage';
 import ContactPage from './pages/front/ContactPage';
 import TicketPurchasePage from './pages/front/TicketPurchasePage';
+import AvisPageFront from './pages/front/AvisPageFront';
+import ReclamationPageFront from './pages/front/ReclamationPageFront';
 
 // Admin pages
 import Dashboard from './pages/admin/Dashboard';
@@ -29,6 +33,8 @@ function App() {
                 <Route path="events" element={<EventsPage />} />
                 <Route path="tickets" element={<TicketPurchasePage />} />
                 <Route path="contact" element={<ContactPage />} />
+                <Route path="avis" element={<AvisPageFront />} />
+                <Route path="reclamation" element={<ReclamationPageFront />} />
             </Route>
 
             {/* Admin Routes */}
@@ -40,6 +46,8 @@ function App() {
                 <Route path="users" element={<UsersPage />} />
                 <Route path="categories" element={<CategoriesPage />} />
                 <Route path="settings" element={<SettingsPage />} />
+                <Route path="avis" element={<AvisAdminPage />} />
+<Route path="reclamations" element={<ReclamationsAdminPage />} />
             </Route>
         </Routes>
     );

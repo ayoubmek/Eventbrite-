@@ -5,6 +5,9 @@ import Tickets from '../pages/admin/Tickets';
 import Login from '../pages/auth/Login';
 import Page404 from '../pages/errors/Page404';
 
+import AvisPageFront from '../pages/front/AvisPageFront';
+import ReclamationPageFront from '../pages/front/ReclamationPageFront';
+
 const routesConfig = [
     {
         path: '/admin',
@@ -18,6 +21,14 @@ const routesConfig = [
     {
         path: '/admin/tickets',
         ...PageController.getAdminPage(Tickets, 'Gestion des billets')
+    },
+    {
+        path: '/avis',
+        ...PageController.getPublicPage(AvisPageFront, 'Avis des utilisateurs')
+    },
+    {
+        path: '/reclamation',
+        ...PageController.getPublicPage(ReclamationPageFront, 'Réclamation')
     },
     {
         path: '/login',

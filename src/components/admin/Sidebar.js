@@ -7,7 +7,9 @@ import {
     FiCalendar,
     FiSettings,
     FiLayers,
-    FiDollarSign
+    FiDollarSign,
+    FiStar,
+    FiAlertCircle
 } from 'react-icons/fi';
 import { useNavigate, useLocation } from 'react-router-dom';
 
@@ -23,6 +25,8 @@ const Sidebar = () => {
         { id: 'events', label: 'Événements', icon: <FiCalendar className="me-2" />, path: '/admin/events' },
         { id: 'users', label: 'Utilisateurs', icon: <FiUsers className="me-2" />, path: '/admin/users' },
         { id: 'categories', label: 'Catégories', icon: <FiLayers className="me-2" />, path: '/admin/categories' },
+        { id: 'avis', label: 'Avis', icon: <FiStar className="me-2" />, path: '/admin/avis' },
+        { id: 'reclamations', label: 'Réclamations', icon: <FiAlertCircle className="me-2" />, path: '/admin/reclamations' },
         { id: 'settings', label: 'Paramètres', icon: <FiSettings className="me-2" />, path: '/admin/settings' }
     ];
 
@@ -46,27 +50,26 @@ const Sidebar = () => {
                 </Nav.Link>
             ))}
 
-            {/* Custom styling */}
             <style jsx>{`
-        .sidebar-link {
-          color: rgba(255, 255, 255, 0.8);
-          padding: 12px 20px;
-          border-left: 3px solid transparent;
-          transition: all 0.3s ease;
-          margin-bottom: 4px;
-          cursor: pointer;
-        }
-        .sidebar-link:hover {
-          color: white;
-          background: rgba(255, 255, 255, 0.1);
-          text-decoration: none;
-        }
-        .sidebar-link.active {
-          color: white;
-          background: rgba(255, 255, 255, 0.1);
-          border-left: 3px solid #3498db;
-        }
-      `}</style>
+                .sidebar-link {
+                    color: rgba(255, 255, 255, 0.8);
+                    padding: 12px 20px;
+                    border-left: 3px solid transparent;
+                    transition: all 0.3s ease;
+                    margin-bottom: 4px;
+                    cursor: pointer;
+                }
+                .sidebar-link:hover {
+                    color: white;
+                    background: rgba(255, 255, 255, 0.1);
+                    text-decoration: none;
+                }
+                .sidebar-link.active {
+                    color: white;
+                    background: rgba(255, 255, 255, 0.1);
+                    border-left: 3px solid #3498db;
+                }
+            `}</style>
         </Nav>
     );
 };
