@@ -22,6 +22,8 @@ import AdminEventsPage from './pages/admin/EventsPage';
 import UsersPage from './pages/admin/UsersPage';
 import CategoriesPage from './pages/admin/CategoriesPage';
 import SettingsPage from './pages/admin/SettingsPage';
+import LoginPage from './pages/auth/login';
+import AdvertisementManagement from './pages/admin/AdvertisementManagement';
 
 function App() {
     return (
@@ -35,6 +37,7 @@ function App() {
                 <Route path="contact" element={<ContactPage />} />
                 <Route path="avis" element={<AvisPageFront />} />
                 <Route path="reclamation" element={<ReclamationPageFront />} />
+                <Route path="login" element={<LoginPage />} />
             </Route>
 
             {/* Admin Routes */}
@@ -47,7 +50,8 @@ function App() {
                 <Route path="categories" element={<CategoriesPage />} />
                 <Route path="settings" element={<SettingsPage />} />
                 <Route path="avis" element={<AvisAdminPage />} />
-<Route path="reclamations" element={<ReclamationsAdminPage />} />
+                <Route path="reclamations" element={<ReclamationsAdminPage />} />
+                <Route path="ads" element={<AdvertisementManagement />} />
             </Route>
         </Routes>
     );

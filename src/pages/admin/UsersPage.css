@@ -1,0 +1,16 @@
+.users-page .page-title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.users-table th, .users-table td {
+  vertical-align: middle;
+}
+
+.action-buttons > * {
+  margin-right: 0.5rem;
+}
+
+.alert-message {
+  margin-bottom: 1rem;
+} 

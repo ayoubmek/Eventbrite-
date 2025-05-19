@@ -23,6 +23,7 @@ const Sidebar = () => {
         { id: 'artworks', label: 'Œuvres d\'art', icon: <FiImage className="me-2" />, path: '/admin/artworks' },
         { id: 'tickets', label: 'Billets', icon: <FiDollarSign className="me-2" />, path: '/admin/tickets' },
         { id: 'events', label: 'Événements', icon: <FiCalendar className="me-2" />, path: '/admin/events' },
+        { id: 'ads', label: 'Publicités', icon: <FiImage className="me-2" />, path: '/admin/ads' },
         { id: 'users', label: 'Utilisateurs', icon: <FiUsers className="me-2" />, path: '/admin/users' },
         { id: 'categories', label: 'Catégories', icon: <FiLayers className="me-2" />, path: '/admin/categories' },
         { id: 'avis', label: 'Avis', icon: <FiStar className="me-2" />, path: '/admin/avis' },
