@@ -17,7 +17,8 @@ const FrontNavbar = () => {
                         <Nav.Link as={Link} to="/avis">Avis</Nav.Link>
                         <Nav.Link as={Link} to="/reclamation">Réclamation</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                        <Nav.Link as={Link} to="/login" className="btn btn-primary ms-2">Connexion</Nav.Link>
+                        <Nav.Link as={Link} to="/signup" className="btn btn-outline-primary me-2">S'inscrire</Nav.Link>
+                        <Nav.Link as={Link} to="/login" className="btn btn-primary">Connexion</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -4,6 +4,7 @@ import FrontLayout from './layouts/FrontLayout';
 import AdminLayout from './layouts/AdminLayout';
 import AvisAdminPage from './pages/admin/AvisAdminPage';
 import ReclamationsAdminPage from './pages/admin/ReclamationsAdminPage';
+import Signup from './pages/auth/Signup';
 
 // Front office pages
 import HomePage from './pages/front/HomePage';
@@ -38,6 +39,7 @@ function App() {
                 <Route path="avis" element={<AvisPageFront />} />
                 <Route path="reclamation" element={<ReclamationPageFront />} />
                 <Route path="login" element={<LoginPage />} />
+                <Route path="signup" element={<Signup />} />
             </Route>
 
             {/* Admin Routes */}

@@ -9,7 +9,8 @@ import {
     FiLayers,
     FiDollarSign,
     FiStar,
-    FiAlertCircle
+    FiAlertCircle,
+    FiLogOut
 } from 'react-icons/fi';
 import { useNavigate, useLocation } from 'react-router-dom';
 
@@ -37,6 +38,13 @@ const Sidebar = () => {
             (path !== '/admin' && location.pathname.startsWith(path));
     };
 
+    const handleLogout = () => {
+        // Supprimer les données de l'utilisateur du localStorage
+        localStorage.removeItem('currentUser');
+        // Rediriger vers la page de connexion
+        navigate('/login');
+    };
+
     return (
         <Nav className="flex-column pt-3">
             {menuItems.map((item) => (
@@ -50,6 +58,15 @@ const Sidebar = () => {
                     {item.label}
                 </Nav.Link>
             ))}
+
+            <Nav.Link
+                onClick={handleLogout}
+                className="sidebar-link mt-auto"
+                style={{ marginTop: 'auto', borderTop: '1px solid rgba(255, 255, 255, 0.1)' }}
+            >
+                <FiLogOut className="me-2" />
+                Déconnexion
+            </Nav.Link>
 
             <style jsx>{`
                 .sidebar-link {
