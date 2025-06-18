@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 🎟️ Eventbrite Clone – Event Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Eventbrite Clone**, an event management platform that allows users to seamlessly create, manage, and attend events! Whether you're an organizer or an attendee, this app delivers a streamlined experience from event creation to real-time updates. 🚀
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧩 Features
 
-### `npm start`
+- 📝 **Event Creation**: Organizers can create and customize events with details, images, and schedules.
+- 🎫 **Ticket Booking**: Users can book and manage tickets with secure checkout.
+- 👥 **User Registration/Login**: Role-based access for organizers and attendees.
+- 🔔 **Real-time Updates**: Stay informed with notifications and live event status.
+- 📅 **Event Dashboard**: View upcoming events, manage bookings, and track attendance.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Screenshots
 
-### `npm test`
+Here’s a preview of the app in action:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Event Dashboard (Organizer Front Office)
+![Event Dashboard](./images/event-dashboard.png)  
+**Description**: The front office event dashboard allows attendees to view event details, book tickets, and check event schedules.
 
-### `npm run build`
+ 
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Ticket & Billet Management
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🎫 **Ticket Booking (Front Office)**  
+![Ticket Booking](./images/ticket-booking.png)  
+**Description**: Users can browse available events, select ticket types, and complete secure checkout.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🎟️ **Billet (Event Tickets) – Back Office**  
+![Event Tickets – Back Office](./images/back-office-ticket.png)  
+**Description**: Organizers can generate and distribute digital tickets (billets) to attendees. Tickets include QR codes for event entry validation.
 
-### `npm run eject`
+### 🎫 **Ticket Management – Back Office**  
+![Ticket Management](./images/ticket-management.png)  
+**Description**: Organizers can create different ticket types (e.g., VIP, General Admission), set prices, monitor ticket sales, and issue refunds if needed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Frontend**: React
+- **Backend**: Node.js
+- **Database**: PostgreSQL
+- **Authentication**: JWT
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📦 Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install dependencies
+npm install
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start the development server
+npm start
