@@ -18,9 +18,9 @@ Welcome to the **Eventbrite Clone**, an event management platform that allows us
 
 Here’s a preview of the app in action:
 
-### Event Dashboard (Organizer Front Office)
+### Event Dashboard (Organizer Back Office)
 ![Event Dashboard](./public/images/event-dashboard.png)  
-**Description**: The front office event dashboard allows attendees to view event details, book tickets, and check event schedules.
+**Description**: The back office event dashboard allows attendees to view event details, book tickets, and check event schedules.
 
  
 ---
