@@ -28,7 +28,7 @@ Here’s a preview of the app in action:
 ## 🛠️ Ticket & Billet Management
 
 ### 🎫 **Ticket Booking (Front Office)**  
-![Ticket Booking](./public/images/ticket-booking.png)  
+![Ticket Booking](./public/images/ticket-management.png)  
 **Description**: Users can browse available events, select ticket types, and complete secure checkout.
 
 ### 🎟️ **Billet (Event Tickets) – Back Office**  
@@ -36,7 +36,7 @@ Here’s a preview of the app in action:
 **Description**: Organizers can generate and distribute digital tickets (billets) to attendees. Tickets include QR codes for event entry validation.
 
 ### 🎫 **Ticket Management – Back Office**  
-![Ticket Management](./public/images/ticket-management.png)  
+![Ticket Management](./public/images/ticket-booking.png)  
 **Description**: Organizers can create different ticket types (e.g., VIP, General Admission), set prices, monitor ticket sales, and issue refunds if needed.
 
 ---
