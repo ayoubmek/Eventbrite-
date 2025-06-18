@@ -14,6 +14,33 @@ Welcome to the **Eventbrite Clone**, an event management platform that allows us
 
 ---
 
+## 📸 Screenshots
+
+Here’s a preview of the app in action:
+
+### Event Dashboard (Organizer Front Office)
+![Event Dashboard](./images/event-dashboard.png)  
+**Description**: The front office event dashboard allows attendees to view event details, book tickets, and check event schedules.
+
+ 
+---
+
+## 🛠️ Ticket & Billet Management
+
+### 🎫 **Ticket Booking (Front Office)**  
+![Ticket Booking](./images/ticket-booking.png)  
+**Description**: Users can browse available events, select ticket types, and complete secure checkout.
+
+### 🎟️ **Billet (Event Tickets) – Back Office**  
+![Event Tickets – Back Office](./images/back-office-ticket.png)  
+**Description**: Organizers can generate and distribute digital tickets (billets) to attendees. Tickets include QR codes for event entry validation.
+
+### 🎫 **Ticket Management – Back Office**  
+![Ticket Management](./images/ticket-management.png)  
+**Description**: Organizers can create different ticket types (e.g., VIP, General Admission), set prices, monitor ticket sales, and issue refunds if needed.
+
+---
+
 ## 🚀 Tech Stack
 
 - **Frontend**: React
